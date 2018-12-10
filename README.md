@@ -1,11 +1,11 @@
-# _Your project title_
+# _Scala_
 
-- _your name_
-- _your email (uoit.net)_
+- _Thagshan Mohanarathnam_
+- _thagshan.mohanarathnam@uoit.net_
 
 ## About the language
 
-> _Describe the language_
+> _Scala is a general-purpose programming language providing support for functional programming and a strong static type system. Designed to be concise, many of Scala's design decisions aimed to address criticisms of Java_
 >
 > - History
 > - Some interesting features
@@ -15,11 +15,12 @@
 > _give some code snippet of the language_
 
 *Let form*
-
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```
+object HelloWorld {
+    def main(args: Array[String]) {
+      println("Hello, world!")
+    }
+  }
 ```
 
 ## About the tools
