@@ -1,0 +1,30 @@
+import scala.collection.mutable.Map
+import scala.io.Source
+
+//Making a list
+val listexample = List(1, 2, 3, 4, 5)
+
+//Using Tuples
+val pair = (200, "Elephant")
+  println(pair._1)
+  println(pair._2)
+
+//Using sets
+var gameSet = Set("WOW", "Fortnite")
+  gameSet += "Warframe"
+  println(gameSet.contains("Destiny"))
+
+//Using maps
+  val sampleMap = Map[Int, String]()
+  sampleMap += (1 -> "Carrots")
+  sampleMap += (2 -> "Pineapples")
+  sampleMap += (3 -> "Tomatoes")
+  println(sampleMap(2))
+
+//Read from file (count characters)
+if (args.length > 0) {
+	for (line <- Source.fromFile(args(0)).getLines)
+    	print(line.length +" "+ line)
+  	}
+  	else
+    	Console.err.println("Please enter filename")
