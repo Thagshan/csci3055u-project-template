@@ -84,8 +84,9 @@ sbt new scala/scala-seed.g8
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+> _Breeze is a well known open sources library in scala recognized for its scientific computing. It takes ideas from MATLAB's data structures and the NumPy classes for Python and provides efficent manipulations with data arrays, while enabling implementation of a lot of other operators including matrix and vector operations, probabilty and statistic operators, optimization, linear algerbra and signal process operations._
+
+>_Matrix and vector operations allow for the creation, transpse, population, element-wise operations, inverstions, and determinant calculations of matrices and vectors._
 
 
 # Analysis of the language
