@@ -96,7 +96,7 @@ sbt new scala/scala-seed.g8
 
 >_Lastly, Singal processing operations are necessary for work with digital signals. A few important operations in Breeze are Convolution and Fourier transformation._
 
-## Analysis of the language
+# Analysis of the language
 
 > _Organize your report according to the project description
 document_.
