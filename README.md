@@ -98,15 +98,24 @@ sbt new scala/scala-seed.g8
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
-#### Style of programming
+#### Style of programming: Functional vs Procedural
+
+>_Scala is a functional programming language. Function programming is a style of building the structure and elements of computer programs, and treats computations as the calculation of mathematical functions. This way, languages that use functional programming inherently avoid changing states and mutable data. This means that they are designmed to handle symbolic computation and list processing applications. The general benefits of Functional programming are that pure functions are easier to reason about, which makes creating them easier, as well as testing and debugging._
+
 #### Ability to preform Meta-Programming
+
+>_Scala does support and even thrive in the metaprogramming sector. Using the Scalameta library, programmers now have access to Synctactic API to parse scala source code with the help of semantic API which helps build developer tools that understand Scala symbols and types. Scalameta has over one hundred thousand unique downloads in just a month and has even been adopted into the industry. Scalameta is actively developed and maintained by engineers at Twitter, the SCala center and members from the community._
+
 #### Symbol Resolution and Scala's support for closure
+
 #### Scoping Rules: Lexical vs Dynamic Scoping
+
 #### Functional Programming Constructs
+
 #### Static vs Dynamic Type Systems
+
 #### Scala's Strengths
+
 #### Scala's Weaknesses
 
 
