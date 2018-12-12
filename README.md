@@ -45,7 +45,7 @@ def max(a: Int, b: Int): Int = {
 >_To compile, type hello.scala (filename.scala) in compiler._
 
 ```
-  println("Hello, world, from a script!")
+  println("Hello World! This is a script!")
  ```
 *Loops*
 ```
