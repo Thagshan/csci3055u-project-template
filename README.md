@@ -58,7 +58,13 @@ var x = 0
 
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+> _Scala has a lot of options when it come to compiling, but the most common and longest standing is likely also the most reliable. Known as sbt, it is an open source build tool for both Scala and Java, similar to Java's Maven and Ant. It is available for installations through Mac's homebrew, MSI on Windows and packages on linux. In order to create a new project, you could use the Giter8 templates, and for a simple project you can just use the scala-seed template. The code you would input into the shell would just be:
+
+sbt new scala/scala-seed.g8_
+
+> _sbt also requires a build.sbt file located at the root of the project. You can also add additional build definitions in scala within the project directory the build creates for you. The project can be run in either the command-line shell or in the sbt shell, but the sbt shell is much faster for compiling and runing code. It can be started by just runing sbt._
+
+>_Aside from sbt, you can also use the build tools cbt (short hand for Chris's Build Tool), Mill, Fury, Maven and even Gradle. Each compiler has its own benefits and disadvantages, and while sbt is the most popular, users are free to use whichever compilers they prefer or are most comfortable with._
 
 ## About the standard library
 
