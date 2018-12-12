@@ -86,8 +86,15 @@ sbt new scala/scala-seed.g8
 
 > _Breeze is a well known open sources library in scala recognized for its scientific computing. It takes ideas from MATLAB's data structures and the NumPy classes for Python and provides efficent manipulations with data arrays, while enabling implementation of a lot of other operators including matrix and vector operations, probabilty and statistic operators, optimization, linear algerbra and signal process operations._
 
->_Matrix and vector operations allow for the creation, transpse, population, element-wise operations, inverstions, and determinant calculations of matrices and vectors._
+>_Matrix and vector operations allow for the creation, transpose, population, element-wise operations, invertions, and determinant calculations of matrices and vectors._
 
+>_Probability and statistic functions span statisitc distributions and calculating descriptive stats (mean, variance, standard deviation) to Markov chain models._
+
+>_Optimization entails investigation of any given function for a local or global minimum._
+
+>_Linear algebra operations rely on the netlib-java library, making breeze extremely fast for algebraic computations._
+
+>_Lastly, Singal processing operations are necessary for work with digital signals. A few important operations in Breeze are Convolution and Fourier transformation._
 
 # Analysis of the language
 
