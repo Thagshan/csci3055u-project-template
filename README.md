@@ -130,6 +130,8 @@ object closureDemo {
 
 #### Static vs Dynamic Type Systems
 
+>_Scala is a strong statically types language. This means that at compile time, it ensures a certain value with a specified type is correctly used throughout the program and that at runtime, nothing else other than the specified type can be held in that value's memory location. For example, if the variable x is defined as an int, but also used later as a list, the language selects one of these types, we'll say int, and makes sure that x is only ever used as an int._
+
 #### Scala's Strengths
 
 #### Scala's Weaknesses
