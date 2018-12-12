@@ -58,9 +58,9 @@ var x = 0
 
 ## About the tools
 
-> _Scala has a lot of options when it come to compiling, but the most common and longest standing is likely also the most reliable. Known as sbt, it is an open source build tool for both Scala and Java, similar to Java's Maven and Ant. It is available for installations through Mac's homebrew, MSI on Windows and packages on linux. In order to create a new project, you could use the Giter8 templates, and for a simple project you can just use the scala-seed template. The code you would input into the shell would just be:
+>_Scala has a lot of options when it come to compiling, but the most common and longest standing is likely also the most reliable. Known as sbt, it is an open source build tool for both Scala and Java, similar to Java's Maven and Ant. It is available for installations through Mac's homebrew, MSI on Windows and packages on linux. In order to create a new project, you could use the Giter8 templates, and for a simple project you can just use the scala-seed template. The code you would input into the shell would just be:_
 ```
-sbt new scala/scala-seed.g8_
+sbt new scala/scala-seed.g8
 ```
 > _sbt also requires a build.sbt file located at the root of the project. You can also add additional build definitions in scala within the project directory the build creates for you. The project can be run in either the command-line shell or in the sbt shell, but the sbt shell is much faster for compiling and runing code. It can be started by just runing sbt._
 
@@ -68,13 +68,25 @@ sbt new scala/scala-seed.g8_
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+> _The Scala package contains core types like Int, Float, Array, or Option which are accessible in all Scala compilation units without explicit qualifications or imports. Noteworthy packages include:_
+
+>_scala.collection - includes Scalas's collections framework within its sub-packages_
+       >_scala.collection.immutable - Supports immutable sequential data-structures like Vector, List, Range, etc._
+       >_scala.collection.mutable - Supports mutable sequential data-structures like ArrayBuffer, StringBuilder etc._
+       >_scala.collection.concurrent - Supports mutable concurrent data-structures like TrieMap_
+       >_scala.collection.parallel.immutable - Supports immutable parallel data-structures like ParVector, ParRange, ParHashMap, etc._
+       >_scala.collection.parallel.mutable - Supports mutable parallel data-structures like ParArray, ParHashMap, etc._
+>_scala.concurrent - Supports primitives for concurrent programming like Futures and Promises_
+>_scala.io - Supports input and output operations_
+>_scala.math - Supports basic math functions as well as additional numeric types like BigInt and BigDecimal_
+>_scala.sys - Supports interaction with other processes, including the operating system_
+>_scala.util.matching - Regular Expressions_
 
 ## About open source library
 
 > _Describe at least one contribution by the open source
 community written in the language._
+
 
 # Analysis of the language
 
