@@ -100,13 +100,13 @@ sbt new scala/scala-seed.g8
 
 > _Organize your report according to the project description
 document_.
-# Style of programming
-# Ability to preform Meta-Programming
-# Symbol Resolution and Scala's support for closure
-# Scoping Rules: Lexical vs Dynamic Scoping
-# Functional Programming Constructs
-# Static vs Dynamic Type Systems
-# Scala's Strengths
-# Scala's Weaknesses
+#### Style of programming
+#### Ability to preform Meta-Programming
+#### Symbol Resolution and Scala's support for closure
+#### Scoping Rules: Lexical vs Dynamic Scoping
+#### Functional Programming Constructs
+#### Static vs Dynamic Type Systems
+#### Scala's Strengths
+#### Scala's Weaknesses
 
 
