@@ -108,6 +108,18 @@ sbt new scala/scala-seed.g8
 
 #### Symbol Resolution and Scala's support for closure
 
+>_Symbol Resolution is also very strong in Scala. For instance, Scala is able to bind symbol references to symbol sefinitions within another object. This is a simple solution that most languages use for symbol resolution, especially Java, and since Scala was built using Java as a reference, it tends to use the a lot of the same strategies and has a lot of the benefits. Scalla also supports closure, where a functions return value depends on the value of one or more variables declared outside the function. For example, in the following code, x is reliant on y which is declared outside the scope of main._
+
+```
+object closureDemo {
+   def main(args: Array[String]) {
+      println( "x(1) value = " +  x(1) )
+      println( "x(2) value = " +  x(2) )
+   }
+   var y = 3
+   val x = (i:Int) => i * y
+}
+```
 #### Scoping Rules: Lexical vs Dynamic Scoping
 
 #### Functional Programming Constructs
