@@ -70,17 +70,17 @@ sbt new scala/scala-seed.g8
 
 > _The Scala package contains core types like Int, Float, Array, or Option which are accessible in all Scala compilation units without explicit qualifications or imports. Noteworthy packages include:_
 
->_scala.collection - includes Scalas's collections framework within its sub-packages
-       scala.collection.immutable - Supports immutable sequential data-structures like Vector, List, Range, etc.
-       scala.collection.mutable - Supports mutable sequential data-structures like ArrayBuffer, StringBuilder etc.
-       scala.collection.concurrent - Supports mutable concurrent data-structures like TrieMap
-       Scala.collection.parallel.immutable - Supports immutable parallel data-structures like ParVector, ParRange, ParHashMap, etc.
-       scala.collection.parallel.mutable - Supports mutable parallel data-structures like ParArray, ParHashMap, etc.
-scala.concurrent - Supports primitives for concurrent programming like Futures and Promises
-scala.io - Supports input and output operations
-scala.math - Supports basic math functions as well as additional numeric types like BigInt and BigDecimal
-scala.sys - Supports interaction with other processes, including the operating system
-scala.util.matching - Regular Expressions_
+- scala.collection - includes Scalas's collections framework within its sub-packages
+  - scala.collection.immutable: Supports immutable sequential data-structures like Vector, List, Range, etc.
+  - scala.collection.mutable: Supports mutable sequential data-structures like ArrayBuffer, StringBuilder etc.
+  - scala.collection.concurrent: Supports mutable concurrent data-structures like TrieMap
+  - scala.collection.parallel.immutable: Supports immutable parallel data-structures like ParVector, ParRange, ParHashMap, etc.
+  - scala.collection.parallel.mutable: Supports mutable parallel data-structures like ParArray, ParHashMap, etc.
+- scala.concurrent: Supports primitives for concurrent programming like Futures and Promises
+- scala.io: Supports input and output operations
+- scala.math: Supports basic math functions as well as additional numeric types like BigInt and BigDecimal
+- scala.sys: Supports interaction with other processes, including the operating system
+- scala.util.matching: Regular Expressions
 
 ## About open source library
 
