@@ -122,7 +122,11 @@ object closureDemo {
 ```
 #### Scoping Rules: Lexical vs Dynamic Scoping
 
+>_Scala primarily supports Lexical scoping, since most of the language is derived from Java, and Java variables are always statically (or lexically) scoped. This means that the binding of a variable can be determined by program text and is independant from the run-time function call stack._
+
 #### Functional Programming Constructs
+
+>_Functional programmong constructs are available inherently through the language since Scala is primarily a functional programming language. Of course, this just means that we can define functions with no side effects. A function with no side effects does only what it is meant to do with no internet or unintended behaviours. However, this is common to all functional progamming languages, where they all avoid mutations to their variables, and can also compose complex functions, high order functions and even preform pattern matching. More unique to Scala would be the ease of Asynchronous and parallel programming with the use of futures, dependency injections as first class citizen using features like traits and implicits and even the use of extensible language since Scala comes with built-in features like implicits, operator overloading and macros and more. _
 
 #### Static vs Dynamic Type Systems
 
