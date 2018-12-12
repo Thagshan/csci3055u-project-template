@@ -3,7 +3,7 @@
 - _Thagshan Mohanarathnam_
 - _thagshan.mohanarathnam@uoit.net_
 
-## About the language
+## About the Language
 
 > _Scala is a general-purpose programming language, created by Martin Odersky, to provide support for functional programming and a strong static type system. The language is promoted by Lightbend, forerly known as Typesafe, which promotes an open source platform for building reactive applications for the JVM, and they are also one of the main contributors of Reactive Streams. The language itself was designed to be concise, and many of Scala's design decisions were aimed to address criticisms of Java. Although Scala has been around for many years and is used for backend code for large corporations, like Twitter, There are lots of people that have not heard about Scala. There are many reasons to learn Scala. The language is very important, very effecient, fast, and is most relevent in big data._ 
 
