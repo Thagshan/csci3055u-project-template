@@ -1,7 +1,7 @@
-# _Scala_
+# _CSCI-3055 Final Project: All About Scala_
 
-- _Thagshan Mohanarathnam_
-- _thagshan.mohanarathnam@uoit.net_
+- _Name: Thagshan Mohanarathnam_
+- _Email: thagshan.mohanarathnam@uoit.net_
 
 ## About the Language
 
