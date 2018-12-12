@@ -1,0 +1,10 @@
+def quicksort(xs: Array[Int]): Array[Int] = {
+    if (xs.length <= 1) xs
+    else {
+      val fp = xs(xs.length / 2)
+      Array.concat(
+        quicksort(xs filter (fp >)),
+        xs filter (fp ==),
+        quicksort(xs filter (fp <)))
+    }
+  }
