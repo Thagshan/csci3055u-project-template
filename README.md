@@ -134,6 +134,19 @@ object closureDemo {
 
 #### Scala's Strengths
 
+- Easy to pick up, simple and straighworward syntax
+- Scalability
+- Good IDE Support, XML Support
+- Great for Data analytics
+- Highly Functional
+- Inherently Immutable Objects
+- Fast implementation speed
+
+
 #### Scala's Weaknesses
 
+- Limited Community Presence
+- Difficult to master, especially without prior knowledge of Java
+- Lack of ease of adoption
+- Limited backwards compatability
 
