@@ -16,14 +16,43 @@
 
 ## About the syntax
 
-> _give some code snippet of the language_
+> _Here are some snippets of code_
 
-*Let form*
+*Simple Code, output Hello World!*
+
 ```
-object HelloWorld {
-    def main(args: Array[String]) {
-      println("Hello, world!")
-    }
+println("Hello World!")
+```
+
+*Store a Variable, then output*
+
+```
+val msg = "Hello World!"
+println(msg)
+```
+
+*Define a Function, given 2 integers, return larger integer*
+
+```
+def max(a: Int, b: Int): Int = {
+       |   if (a > b) a
+       |   else b
+       | }
+  max: (Int,Int)Int
+```
+
+*Script example*
+>_To compile, type hello.scala (filename.scala) in compiler._
+
+```
+  println("Hello, world, from a script!")
+ ```
+*Loops*
+```
+var x = 0
+  while (x < args.length) {
+    println(args(x))
+    x += 1
   }
 ```
 
